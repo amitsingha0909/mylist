@@ -1,0 +1,11 @@
+def positive_number(NumList):
+    for i in range(Number):
+        if(NumList[i]>=0):
+            print(NumList[i],end=' ')
+NumList=[]
+Number=int(input('Please enter the total number of list elements:'))
+for i in range(1, Number+1):
+    value=int(input('Please enter the value of%d element:'%i))
+    NumList.append(value)
+print('Positive Numbers in this List are:')
+positive_number(NumList)
